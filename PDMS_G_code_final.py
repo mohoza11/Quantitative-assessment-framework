@@ -540,7 +540,6 @@ print(f"u789 (nozzle speed for squares #789)= {u3} mm/min")
 print(f"Extrusion speed (v)= {v:.5f} mm/min")
 print(f"Nozzle diameter (D)= {D:.5f} mm")
 print(f"Shear rate= {Gamma:.5f} 1/s")
-print(f"Flow rate (Q)= {Q:.5f} mm³/min")
 
 # Save G-code to file
 with open("generated_gcode_with_visualization.gcode", "w") as f:
